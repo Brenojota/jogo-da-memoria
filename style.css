@@ -1,0 +1,12 @@
+body{
+    background-color: gray;
+}
+#card{
+    background-color: red;
+    width: 2%;
+    height: 12em;
+}
+
+#img-card{
+    width: 14em;
+}
