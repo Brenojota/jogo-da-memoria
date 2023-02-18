@@ -1,12 +1,60 @@
 body{
     background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
 }
 #card{
     background-color: red;
-    width: 2%;
-    height: 12em;
+    width: 14.5em;
+    height: 20em;
 }
 
 #img-card{
     width: 14em;
+}
+
+#card-2 {
+    background-color: rgb(27, 206, 96);
+    width: 14.5em;
+    height: 20em; 
+    display: none;
+}
+
+#card-3 {
+    background-color: red;
+    width: 14.5em;
+    height: 20em;
+}
+
+#card-4 {
+    background-color: rgb(233, 24, 205);
+    width: 14.5em;
+    height: 20em; 
+    display: none;
+}
+
+#card-5 {
+    background-color: rgb(7, 171, 221);
+    width: 14.5em;
+    height: 20em;
+}
+
+#card-6 {
+    background-color: rgb(233, 24, 205);
+    width: 14.5em;
+    height: 20em; 
+    display: none;
+}
+
+#card-7 {
+    background-color: rgb(7, 171, 221);
+    width: 14.5em;
+    height: 20em;
+}
+
+#card-8 {
+    background-color: rgb(233, 24, 205);
+    width: 14.5em;
+    height: 20em; 
+    display: none;
 }
