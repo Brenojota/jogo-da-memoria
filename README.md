@@ -1,5 +1,5 @@
 # jogo-da-memoria
-Desenvolvido por: Brenojota e JuniorEliass©
+Desenvolvido por: Brenojota e JuniorEliass ©
 
 Clique no link para jogar!
 
