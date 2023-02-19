@@ -1,8 +1,11 @@
 body {
-    background-color: gray;
+    background-image: url("./image/background.jpg");
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #tela {

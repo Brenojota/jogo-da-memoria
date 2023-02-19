@@ -3,8 +3,8 @@ let Contador = [];
 
 
 function intervalo() {
-  if (Contador.length >= 2) {
-
+  if (Contador.length == 3) {
+  
     cardVerso.style.display = "block";
     cardFrente.style.display = "none";
 
@@ -36,13 +36,14 @@ function intervalo() {
     cardFrente10.style.display = "none";
 
 
-
     console.log("ok");
-    Contador.splice(0,2)
+    Contador.splice(0,3)
+
   } else {
     console.log("Não é igual a 2");
   }
 }
+
 
   //Nova seção de cards
 let cardVerso = document.querySelector("#card");
@@ -53,20 +54,31 @@ let cardFrente2 = document.querySelector("#card-4");
 function mudarCard() {
   cardVerso.style.display = "none";
   cardFrente.style.display = "block";
+
   let contador = 1;
   console.log(contador);
   Contador.push(contador);
+  if(cardFrente.style.display == "block" && cardFrente2.style.display == "block" && Contador.length < 3) {
+    Contador.splice(0,3)
+  }else{
+    intervalo()
+  }
+
 }
 
 function mudarCard2() {
   cardVerso2.style.display = "none";
   cardFrente2.style.display = "block";
+  
   let contador = 1;
   console.log(contador);
   Contador.push(contador);
-  if(cardFrente.style.display == "block" && cardFrente2.style.display == "block") {
-    
+  if(cardFrente.style.display == "block" && cardFrente2.style.display == "block" && Contador.length < 3) {
+    Contador.splice(0,3)
+  }else{
+    intervalo()
   }
+ 
 }
 
 
@@ -84,6 +96,11 @@ function mudarCard3() {
     let contador = 1;
     console.log(contador);
     Contador.push(contador);
+    if(cardFrente3.style.display == "block" && cardFrente4.style.display == "block" && Contador.length < 3) {
+      Contador.splice(0,3)
+    }else{
+      intervalo()
+    }
 }
 
 function mudarCard4() {
@@ -92,6 +109,11 @@ function mudarCard4() {
     let contador = 1;
     console.log(contador);
     Contador.push(contador);
+    if(cardFrente3.style.display == "block" && cardFrente4.style.display == "block" && Contador.length < 3) {
+      Contador.splice(0,3)
+    }else{
+      intervalo()
+    }
 }
 
 //Nova seção de cards
@@ -107,6 +129,11 @@ function mudarCard5() {
   let contador = 1;
   console.log(contador);
   Contador.push(contador);
+  if(cardFrente5.style.display == "block" && cardFrente6.style.display == "block" && Contador.length < 3) {
+    Contador.splice(0,3)
+  }else{
+    intervalo()
+  }
 }
 
 function mudarCard6() {
@@ -115,6 +142,11 @@ function mudarCard6() {
   let contador = 1;
   console.log(contador);
   Contador.push(contador);
+  if(cardFrente5.style.display == "block" && cardFrente6.style.display == "block" && Contador.length < 3) {
+    Contador.splice(0,3)
+  }else{
+    intervalo()
+  }
 }
 
 //Nova seção de cards
@@ -130,6 +162,11 @@ function mudarCard7() {
   let contador = 1;
   console.log(contador);
   Contador.push(contador);
+  if(cardFrente7.style.display == "block" && cardFrente8.style.display == "block" && Contador.length < 3) {
+    Contador.splice(0,3)
+  }else{
+    intervalo()
+  }
 }
 
 function mudarCard8() {
@@ -138,6 +175,11 @@ function mudarCard8() {
   let contador = 1;
   console.log(contador);
   Contador.push(contador);
+  if(cardFrente7.style.display == "block" && cardFrente8.style.display == "block" && Contador.length < 3) {
+    Contador.splice(0,3)
+  }else{
+    intervalo()
+  }
 }
 
 //Nova seção de cards
@@ -153,6 +195,11 @@ function mudarCard9() {
   let contador = 1;
   console.log(contador);
   Contador.push(contador);
+  if(cardFrente9.style.display == "block" && cardFrente10.style.display == "block" && Contador.length < 3) {
+    Contador.splice(0,3)
+  }else{
+    intervalo()
+  }
 }
 
 function mudarCard10() {
@@ -161,4 +208,9 @@ function mudarCard10() {
   let contador = 1;
   console.log(contador);
   Contador.push(contador);
+  if(cardFrente9.style.display == "block" && cardFrente10.style.display == "block" && Contador.length < 3) {
+    Contador.splice(0,3)
+  }else{
+    intervalo()
+  }
 }
